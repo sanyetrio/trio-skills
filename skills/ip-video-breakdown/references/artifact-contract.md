@@ -1,6 +1,6 @@
 # 拆片产物约定
 
-机器可读模板以 [breakdown-template.json](../assets/breakdown-template.json) 为唯一字段样例。本文只说明含义。独立使用时输出 `breakdowns/{source_id}.json` 与同名 `.md`，证据位于 `evidence/{source_id}/`；也可沿用用户指定项目结构。与主控配合时再读 `ip-content-sop/references/handoff.md`。
+机器可读模板以 [breakdown-template.json](../assets/breakdown-template.json) 为唯一字段样例。本文只说明含义。独立使用时输出 `breakdowns/{source_id}.json` 与同名 `.md`，证据位于 `evidence/{source_id}/`；也可沿用用户指定项目结构。与可选总调度配合时再读本包的 [交接约定](handoff.md)。
 
 - `stage` 固定 `breakdown`。`status` 为 `needs_input` 或 `ready`。`ready` 只表示完整拆片阶段验收通过，不表示知识库已写入、IP 已采用或视频已发布。
 - `media_path`、`transcript_ref` 保留真实来源；`media_sha256` 来自原片，供后续核对。原片时长以真实探测为准。

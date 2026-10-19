@@ -3,7 +3,9 @@ name: ip-content-sop
 description: 将对标博主热门作品筛选、逐条视频拆片、知识入库、当前IP脚本适配、自动分镜与执行稿核验串成同一任务。用于运行或继续这条内容生产SOP；只做单项时直接调用对应功能Skill，不自动发布、收费制作或改工作台。
 ---
 
-# IP内容生产总调度
+# IP内容生产总调度（高级可选）
+
+本包只包含调度与状态脚本，不包含下面六个功能技能。完整运行前检查六项已分别安装；只做某一步时直接使用对应技能即可。缺少必要技能时明确列出名称，不假定已安装，也不自动安装。
 
 先识别本次范围，再用现有资料接着做。用户给出的“热门10条”是本工作流的一种默认批次，明确的条数、工具、顺序和内容边界优先。只要求分镜时，不重新采集、拆片或定位。
 
@@ -18,12 +20,12 @@ description: 将对标博主热门作品筛选、逐条视频拆片、知识入�
 
 | 阶段 | 调用技能 | 承接的输入 | 本步交出 |
 |---|---|---|---|
-| selection | [ip-reference-select](../ip-reference-select/SKILL.md) | 同一账号作品清单、范围与数据 | 有口径的前N条、全量排序与缺失表 |
-| breakdown | [ip-video-breakdown](../ip-video-breakdown/SKILL.md) | 入选原视频、可核对转写 | 每条拆片卡、时间证据、可复用做法 |
-| knowledge | [ip-knowledge-ingest](../ip-knowledge-ingest/SKILL.md) | 原素材与拆片结果 | 逐作品笔记、引用、索引与写入回执 |
-| script | [ip-script-adapt](../ip-script-adapt/SKILL.md) | 参考库＋当前IP材料与资源 | 适配表、选题与口播稿 |
-| storyboard | [ip-auto-storyboard](../ip-auto-storyboard/SKILL.md) | 已选稿件、拍摄条件与参考点 | 分镜、镜头与台词对应、素材清单 |
-| review | [ip-content-review](../ip-content-review/SKILL.md) | 全部当前版本产物 | 问题清单、交付包、真实状态 |
+| selection | `ip-reference-select`（另行安装） | 同一账号作品清单、范围与数据 | 有口径的前N条、全量排序与缺失表 |
+| breakdown | `ip-video-breakdown`（另行安装） | 入选原视频、可核对转写 | 每条拆片卡、时间证据、可复用做法 |
+| knowledge | `ip-knowledge-ingest`（另行安装） | 原素材与拆片结果 | 逐作品笔记、引用、索引与写入回执 |
+| script | `ip-script-adapt`（另行安装） | 参考库＋当前IP材料与资源 | 适配表、选题与口播稿 |
+| storyboard | `ip-auto-storyboard`（另行安装） | 已选稿件、拍摄条件与参考点 | 分镜、镜头与台词对应、素材清单 |
+| review | `ip-content-review`（另行安装） | 全部当前版本产物 | 问题清单、交付包、真实状态 |
 
 一个阶段的输出是下一阶段的文件输入，不要求用户反复复制内容。用户已授权一条龙且已给足信息，完成当前阶段后直接衔接；只有确实需要人做的决定或缺少关键资料时，暂停受影响的步骤。
 

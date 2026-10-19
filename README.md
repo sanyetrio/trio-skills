@@ -1,42 +1,64 @@
-# Trio Skills · 三页技能库
+# 三页技能库｜按用途选一个
 
-整理日常内容创作、IP 内容生产、图片处理、视频包装与浏览器操作中使用的技能，提供可阅读、可按需安装的基础版。
+**这次要做什么，就打开对应那一项。每项都有独立中文说明和下载包，不用整套安装。**
 
-**当前收录 15 项技能。** 每项保留 `SKILL.md` 和必要脚本、参考资料、模板；需要账号、模型服务或编辑器时，由使用者配置自己的环境。
+先点“看说明”，了解需要提供的材料和能得到的结果；确定要用时，下载这一项的 ZIP。
 
-## 从这里开始
+## 写文案
 
-- [技能目录：用途与依赖](CATALOG.md)
-- [下载、安装与基础配置](docs/基础配置与安装.md)
-- [基础配置示例](config.example.md)
-- [来源与本次改动](docs/来源与改动.md)
-- [检查范围与限制](docs/检查范围.md)
-- [使用许可说明](RIGHTS.md)
+| 你现在要做什么 | 看说明 | 单项下载 |
+|---|---|---|
+| 文案写好了，想改得自然顺口 | [中文文案改稿](skills/human-writing/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/human-writing.zip) |
+| 有参考内容，想写成自己的口播稿 | [参考内容改成自己的口播稿](skills/ip-script-adapt/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/ip-script-adapt.zip) |
 
-## 主要用途
+## 做图片
 
-| 方向 | 收录内容 |
-|---|---|
-| IP 内容生产 | 热门筛选 → 视频拆片 → 资料入库 → 脚本适配 → 分镜 → 拍摄方案检查，并配有总调度 |
-| 中文写作 | 自然表达、改稿与可选文本检查 |
-| 图片与视觉 | 会议照片、角色迭代、交互结构图 |
-| 音视频 | 口播包装、Remotion 动态图形、Seedance 提示词模板 |
-| 浏览器 | Playwright 自动化与页面验证 |
+| 你现在要做什么 | 看说明 | 单项下载 |
+|---|---|---|
+| 会议照片太多，想选片和精修 | [会议照片精选与精修](skills/conference-photo-edit/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/conference-photo-edit.zip) |
+| 角色图已经选定，想继续局部修改 | [角色图片局部修改](skills/workbench-character-iteration/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/workbench-character-iteration.zip) |
+| 一个结构或原理，想用交互图讲清楚 | [交互结构示意图](skills/anatomy/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/anatomy.zip) |
 
-## 使用方式
+## 拍视频与剪视频
 
-下载后挑选需要的技能，将完整文件夹放到所用 AI 客户端的技能目录。已有同名技能先比较，不直接覆盖。七个 `ip-*` 需要一起保留，以便读取共用交接规则。
+| 你现在要做什么 | 看说明 | 单项下载 |
+|---|---|---|
+| 有一份作品数据表，想筛出热门作品 | [从作品表里筛热门视频](skills/ip-reference-select/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/ip-reference-select.zip) |
+| 看到一条好视频，想拆清它怎样拍、怎样剪 | [参考视频拆解](skills/ip-video-breakdown/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/ip-video-breakdown.zip) |
+| 口播稿已经写好，想知道每句话拍什么 | [口播稿转拍摄分镜](skills/ip-auto-storyboard/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/ip-auto-storyboard.zip) |
+| 准备开拍，想检查稿子、分镜和素材是否齐全 | [拍摄方案检查](skills/ip-content-review/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/ip-content-review.zip) |
+| 视频已经剪好，想处理封面、画面和字幕样式 | [口播视频封面与字幕包装](skills/talking-head-packaging/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/talking-head-packaging.zip) |
 
-然后给 AI 明确任务，例如：
+## 整理资料
 
-> 用 ip-auto-storyboard 把这份稿子整理成可拍摄的分镜。保留原文，使用一人一手机能完成的拍法。
+| 你现在要做什么 | 看说明 | 单项下载 |
+|---|---|---|
+| 积累了一批参考素材，想整理成能找回的笔记 | [作品资料整理进知识库](skills/ip-knowledge-ingest/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/ip-knowledge-ingest.zip) |
 
-> 用 human-writing 改写这段文案，让表达更自然、顺畅，保留原意，不补编案例。
+<details>
+<summary>进阶：代码工具、生成模型提示词和多步骤组合</summary>
 
-技能是任务指引与辅助资源。生成图片、播放视频、剪辑、联网采集等能力仍依赖当前客户端和工具；未实际完成的步骤应如实报告。
+| 你现在要做什么 | 看说明 | 单项下载 |
+|---|---|---|
+| 准备生成视频，想找对应风格的提示词 | [视频生成提示词模板](skills/seedance-prompt-library/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/seedance-prompt-library.zip) |
+| 想用代码制作片头、动态数字或动画图形 | [用代码制作动态图形](skills/remotion-motion-graphics/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/remotion-motion-graphics.zip) |
+| 想让AI操作网页、验证操作结果 | [浏览器网页操作与测试](skills/playwright/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/playwright.zip) |
+| 已会用单项技能，需要串联多个步骤 | [内容生产多步骤调度](skills/ip-content-sop/) | [ZIP](https://github.com/sanyetrio/trio-skills/raw/refs/heads/main/downloads/ip-content-sop.zip) |
 
-## 分享范围
+`ip-content-sop` 是可选的多步骤调度包，需要另装本次用到的功能技能。其他14项已整理为单项完整包；具体软件和账号依赖见各项说明。
 
-本次发布保留通用流程与基础配置，去除了个人目录、客户识别材料、私人历史记录和账号配置。第三方技能保留各自署名与许可证，未将全部收录内容声明为原创；详见 [来源与使用许可](RIGHTS.md)。
+</details>
 
-其他本地技能没有自动全部公开：来源不明、绑定个人工作台、包含客户流程，或依赖未随包提供的系统时，需要另行整理。此目录以实际收录文件为准。
+## 怎么用
+
+1. 选一个用途，打开它的中文说明。
+2. 下载该项 ZIP，解压后把完整技能文件夹放进你的 AI 客户端技能目录。
+3. 按该项说明准备材料，复制其中的示例请求给 AI。
+
+[不会安装？看这份简短说明](docs/基础配置与安装.md) · [基础配置示例](config.example.md)
+
+技能是任务指引和辅助资源。修图、剪辑、生成视频、操作网页等工作，仍需使用者自己的软件、模型或账号。
+
+[全部单项目录](CATALOG.md) · [来源与许可](RIGHTS.md) · [检查范围](docs/检查范围.md)
+
+每项内容保存在 `skills/<技能标识>/`；英文文件夹名用于安装和调用，中文用途以本页与各文件夹的 README 为准。
