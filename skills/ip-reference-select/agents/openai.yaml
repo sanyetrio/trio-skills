@@ -1,0 +1,4 @@
+interface:
+  display_name: "热门作品筛选"
+  short_description: "从已有博主清单按同一口径选热门作品，保留全量排序、来源和数据缺口"
+  default_prompt: "请用 $ip-reference-select 从本批博主清单选出热门10条，说明数据范围和缺失项。"

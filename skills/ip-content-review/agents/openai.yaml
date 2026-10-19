@@ -1,0 +1,4 @@
+interface:
+  display_name: "拍摄方案检查与交付"
+  short_description: "核对脚本、分镜和素材能否拍剪，交付具体缺口、版本清单与检查回执"
+  default_prompt: "使用 $ip-content-review 核对本任务的脚本、分镜、素材和来源，修复范围内问题并给出可拍可剪的交付清单。"

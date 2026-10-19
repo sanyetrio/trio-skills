@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "stage": "breakdown",
+  "status": "needs_input",
+  "source_id": "R01",
+  "source_url": null,
+  "author": null,
+  "title": null,
+  "media_path": null,
+  "media_sha256": null,
+  "duration_seconds": null,
+  "transcript_ref": null,
+  "audio_stream_present": null,
+  "coverage": {
+    "video": {"reviewed": false, "ranges": [], "frame_refs": [], "observer": null, "mode": null},
+    "audio": {"reviewed": false, "ranges": [], "observer": null, "mode": null},
+    "transcript": {"reviewed": false, "ranges": [], "observer": null, "mode": null}
+  },
+  "evidence": [],
+  "segments": [
+    {
+      "segment_id": "R01-S01",
+      "start": null,
+      "end": null,
+      "quote": null,
+      "transcript_corrections": [],
+      "camera": {"scene": null, "angle": null, "movement": null},
+      "visual": {"description": null, "purpose": null, "screenshot_refs": [], "subtitle_text": null, "subtitle_style": null, "emphasis_text": null, "animation": null},
+      "edit": {"transition": null, "rhythm": null},
+      "audio": {"speech": null, "music": null, "sfx": null},
+      "evidence_refs": [],
+      "analysis": {"function": null, "hooks": [], "triggers": []}
+    }
+  ],
+  "reusable_points": [],
+  "missing": [{"field": "media_path", "reason": "尚未提供本次原片", "affects": ["video", "audio", "timing"]}]
+}

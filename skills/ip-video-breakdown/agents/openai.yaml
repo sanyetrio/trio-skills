@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频拆片"
+  short_description: "把已有视频拆成有时间位置和原片证据的文案、镜头、剪辑与声音参考"
+  default_prompt: "使用 $ip-video-breakdown 拆解这条已有视频，逐段记录文案、画面、镜头、剪辑与声音，并输出可以入库的参考卡。"

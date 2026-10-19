@@ -1,0 +1,13 @@
+{
+  "repo": "fernandokaraka/remotion-motion-graphics-skill",
+  "commit": "1fc286924c68260b7945f1f29e474b986446b70d",
+  "sourceUrl": "https://github.com/fernandokaraka/remotion-motion-graphics-skill/tree/1fc286924c68260b7945f1f29e474b986446b70d",
+  "archiveUrl": "https://codeload.github.com/fernandokaraka/remotion-motion-graphics-skill/zip/1fc286924c68260b7945f1f29e474b986446b70d",
+  "sha256": "3a159f09f60441cdacd72bc00f7740e939e0b25e40d28b61332fff1ef84155a0",
+  "fileCount": 11,
+  "downloadedBytes": 21531,
+  "public_bundle_changes": [
+    "Removed local workstation routing and local filesystem archive paths.",
+    "Preserved upstream reference guides and original MIT license."
+  ]
+}

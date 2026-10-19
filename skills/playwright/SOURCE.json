@@ -1,0 +1,12 @@
+{
+  "repo": "microsoft/playwright-cli",
+  "source_path": "skills/playwright-cli/SKILL.md",
+  "source_url": "https://github.com/microsoft/playwright-cli/tree/main/skills/playwright-cli",
+  "commit": null,
+  "license": "Apache-2.0",
+  "provenance": "Local NOTICE.txt attributes the material to Microsoft playwright-cli; this local copy does not record an exact upstream commit.",
+  "changes": [
+    "Retained local Codex adapter, wrapper, reference guides and assets.",
+    "Documented PW_SKILL_DIR for portable use without assigning CODEX_HOME."
+  ]
+}

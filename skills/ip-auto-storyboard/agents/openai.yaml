@@ -1,0 +1,4 @@
+interface:
+  display_name: "自动分镜与拍摄清单"
+  short_description: "将当前口播稿变成逐段分镜、素材清单和剪辑要求，并核对文字覆盖"
+  default_prompt: "使用 $ip-auto-storyboard 按现有稿件和拍摄条件生成分镜与素材清单，保留每句话和参考来源。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "工作台角色视觉迭代"
+  short_description: "将工作台角色的多轮视觉反馈转成可追溯的方案迭代与资产验收流程"
+  default_prompt: "使用 $workbench-character-iteration，基于当前角色方案和我的反馈保留已认可特征，修改本轮指定部分，并展示有稳定编号的预览。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "IP适配与脚本"
+  short_description: "把有来源的拆片做法与本IP真实材料结合，形成选题和可交接脚本"
+  default_prompt: "使用 $ip-script-adapt 读取这批拆片材料和当前IP资料，选出适合的做法并写成有依据的脚本。"

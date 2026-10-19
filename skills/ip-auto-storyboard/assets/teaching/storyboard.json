@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "project_id": "teaching-reference-to-shots",
+  "source_script_version": "teaching-v1",
+  "timing_basis": "estimated",
+  "timing_note": "预计26秒；尚未真人实读或音频对齐。原片参考数为0，所有分镜为自制教学设计。",
+  "shots": [
+    {
+      "id": "S01",
+      "new_start_s": 0,
+      "new_end_s": 6,
+      "narration_parts": [
+        {
+          "segment_id": "P01",
+          "start_char": 0,
+          "end_char": 20,
+          "text": "存一条参考视频，先记住它解决了什么问题。"
+        }
+      ],
+      "framing": "正面平视中近景，手机固定",
+      "visual": "人物看镜头，举起标有“表达问题”的空白演示卡。",
+      "edit": "完整说完第一句后切到录屏；保留尾音。",
+      "on_screen_text": "先记：解决什么问题",
+      "audio": "人物原声，无需配乐。",
+      "asset_ids": [
+        "A01",
+        "A02"
+      ],
+      "source_refs": [
+        "T01"
+      ],
+      "fallback": "没有卡片时以字幕显示字段，主机位不变。"
+    },
+    {
+      "id": "S02",
+      "new_start_s": 6,
+      "new_end_s": 12,
+      "narration_parts": [
+        {
+          "segment_id": "P02",
+          "start_char": 0,
+          "end_char": 20,
+          "text": "再看这一句话，配了什么画面，在哪儿切换，"
+        }
+      ],
+      "framing": "电脑录屏全屏，鼠标指向两列",
+      "visual": "展示自制空白拆片表，依次圈出“这句话”和“对应画面”。",
+      "edit": "说到“画面”时圈相应列；说到“切换”时移到剪接列。",
+      "on_screen_text": "一句话 → 对应画面 → 切换位置",
+      "audio": "延续人物原声，录屏静音。",
+      "asset_ids": [
+        "A01",
+        "A03"
+      ],
+      "source_refs": [
+        "T01"
+      ],
+      "fallback": "无法录屏时用纸上三列表，手机俯拍。"
+    },
+    {
+      "id": "S03",
+      "new_start_s": 12,
+      "new_end_s": 16,
+      "narration_parts": [
+        {
+          "segment_id": "P02",
+          "start_char": 20,
+          "end_char": 29,
+          "text": "把原片位置记下来。"
+        }
+      ],
+      "framing": "录屏局部放大",
+      "visual": "圈出“原片位置”空白字段；不伪造真实作品或时间数据。",
+      "edit": "保留字段完整名称，不快速闪切。",
+      "on_screen_text": "原片位置：实际观看后填写",
+      "audio": "延续口播，不另加音效。",
+      "asset_ids": [
+        "A01",
+        "A03"
+      ],
+      "source_refs": [
+        "T01"
+      ],
+      "fallback": "继续全屏并用鼠标框选该列。"
+    },
+    {
+      "id": "S04",
+      "new_start_s": 16,
+      "new_end_s": 26,
+      "narration_parts": [
+        {
+          "segment_id": "P03",
+          "start_char": 0,
+          "end_char": 35,
+          "text": "最后对照自己的拍摄条件。能拍的留下，缺的素材列清楚，再写成自己的分镜。"
+        }
+      ],
+      "framing": "切回人物正面固定中景",
+      "visual": "人物展示写有“一人、手机、录屏”的自制条件卡，结尾指向待拍素材栏。",
+      "edit": "说到“缺的素材”时叠加待拍清单；句尾停半拍。",
+      "on_screen_text": "先核条件，再写分镜",
+      "audio": "完整人物原声。",
+      "asset_ids": [
+        "A01",
+        "A04"
+      ],
+      "source_refs": [
+        "T01"
+      ],
+      "fallback": "只使用人物机位，把三项条件作为字幕依次显示。"
+    }
+  ],
+  "assets": [
+    {
+      "id": "A01",
+      "name": "人物完整口播与结尾",
+      "status": "to_capture",
+      "location": "尚未拍摄",
+      "owner": "教学拍摄者",
+      "action": "固定机位拍全稿，另录结尾停顿。",
+      "fallback": "一遍固定中景完成"
+    },
+    {
+      "id": "A02",
+      "name": "表达问题演示卡",
+      "status": "to_capture",
+      "location": "尚未制作",
+      "owner": "教学拍摄者",
+      "action": "用空白纸写“表达问题”，拍举卡动作。",
+      "fallback": "字幕显示字段"
+    },
+    {
+      "id": "A03",
+      "name": "空白拆片表录屏",
+      "status": "to_capture",
+      "location": "尚未录制",
+      "owner": "教学拍摄者",
+      "action": "自制空白表并录屏，不加入假热度或假原片时间。",
+      "fallback": "纸上表格俯拍"
+    },
+    {
+      "id": "A04",
+      "name": "教学条件卡",
+      "status": "to_capture",
+      "location": "尚未制作",
+      "owner": "教学拍摄者",
+      "action": "制作一人、手机、录屏条件卡。",
+      "fallback": "字幕依次显示"
+    }
+  ]
+}

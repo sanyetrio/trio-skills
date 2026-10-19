@@ -1,0 +1,22 @@
+{
+  "repo": "wheresryan22/anatomy",
+  "commit": "bc943e40c59998be5da61f9d39c6a983b1116099",
+  "source_url": "https://github.com/wheresryan22/anatomy/tree/bc943e40c59998be5da61f9d39c6a983b1116099",
+  "license": "MIT",
+  "changes": [
+    "Packaged complete existing upstream files, including examples and test fixtures.",
+    "Added this source provenance file.",
+    "Moved the unchanged compatibility statement from unsupported YAML frontmatter into the SKILL.md body for Codex quick_validate compatibility."
+  ],
+  "provenance": "Fixed commit recorded in the local installation note; upstream content copied from the existing installation.",
+  "optional_community_publication": {
+    "files": [
+      "scripts/publish.mjs",
+      "scripts/session.mjs",
+      "references/publish.md"
+    ],
+    "behavior": "The optional upstream community-publishing workflow can read the invoking user's own Claude Code session files to estimate elapsed time and token usage. It is not required for static SVG/HTML rendering.",
+    "authorization": "Only use community publication and its session-usage lookup after explicit user authorization. No publication or session-usage lookup was executed while packaging.",
+    "preservation": "The upstream publishing and session helper scripts are preserved unchanged."
+  }
+}

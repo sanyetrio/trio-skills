@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "project_id": "teaching-reference-to-shots",
+  "ip_id": "teaching-hypothetical-presenter",
+  "script_version": "teaching-v1",
+  "title": "一条参考视频怎样变成可用的拍摄提示",
+  "status": "ready_for_storyboard",
+  "topic_selection_basis": "delegated_selection",
+  "evidence": [
+    {
+      "id": "T01",
+      "kind": "teaching",
+      "source_uri": "teaching://reference-to-shots",
+      "locator": "../ip-auto-storyboard/assets/teaching/conditions.md（相对于 ip-script-adapt 技能目录）",
+      "summary": "本次自制教学方法：记录表达问题、画面对应和原片位置，再检查自己的资源。",
+      "ownership": "教学设计，不是用户经历或真实博主观察"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P01",
+      "text": "存一条参考视频，先记住它解决了什么问题。",
+      "source_refs": [
+        "T01"
+      ]
+    },
+    {
+      "id": "P02",
+      "text": "再看这一句话，配了什么画面，在哪儿切换，把原片位置记下来。",
+      "source_refs": [
+        "T01"
+      ]
+    },
+    {
+      "id": "P03",
+      "text": "最后对照自己的拍摄条件。能拍的留下，缺的素材列清楚，再写成自己的分镜。",
+      "source_refs": [
+        "T01"
+      ]
+    }
+  ]
+}

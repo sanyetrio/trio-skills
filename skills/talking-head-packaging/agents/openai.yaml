@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播视频包装"
+  short_description: "按现有风格完成口播封面、画面润色与字幕统一，保留工程并核验交付"
+  default_prompt: "使用 $talking-head-packaging 处理这条口播：沿用现有风格生成封面、润色画面并统一字幕样式。"
